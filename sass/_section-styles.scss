@@ -1,20 +1,21 @@
 $playFair-font: "Playfair Display", serif;
 $rubik-font: "Rubik", sans-serif;
 $Mulish-font: "Mulish", sans-serif;
+$white-color: white;
 
 .section {
   padding: 80px 16px;
   position: relative;
 
   .section__title {
-    font-family: $playFair-font ;
+    font-family: $playFair-font;
     font-size: 2.25rem;
     line-height: 53px;
     color: #172432;
   }
 
   .section__div__line {
-    border-bottom: 2px solid #FF7757;
+    border-bottom: 2px solid #ff7757;
     width: 231px;
   }
 
@@ -22,7 +23,7 @@ $Mulish-font: "Mulish", sans-serif;
     font-family: $rubik-font;
     font-size: 1rem;
     line-height: 21px;
-    color: #767E86;
+    color: #767e86;
     height: 80px;
   }
 
@@ -31,24 +32,23 @@ $Mulish-font: "Mulish", sans-serif;
   }
 
   .section__div__img__destination {
-    img:nth-child(n+2) {
+    img:nth-child(n + 2) {
       display: none;
     }
   }
 
   .section__div__img__offer__container {
-    div:nth-child(n+2) {
+    div:nth-child(n + 2) {
       display: none;
     }
 
-    .section__div__img__offer>div {
+    .section__div__img__offer > div {
       display: block;
     }
-
   }
 
   .section-offer__div {
-    div:nth-child(n+2) {
+    div:nth-child(n + 2) {
       display: none;
     }
   }
@@ -62,19 +62,19 @@ $Mulish-font: "Mulish", sans-serif;
   .section-offer__div {
     width: 288px;
     padding: 20px;
-    background: #FFF8F1;
+    background: #fff8f1;
     border-radius: 0 0 26px 26px;
 
     .section-offer__para {
       font-family: $Mulish-font;
-      color: #767E86;
+      color: #767e86;
       font-size: 1.7rem;
       margin: 5px;
     }
 
     .section-offer__div__para {
       font-family: $rubik-font;
-      font-size: .8rem;
+      font-size: 0.8rem;
       color: #172432;
       line-height: 20px;
       height: 248px;
@@ -82,13 +82,13 @@ $Mulish-font: "Mulish", sans-serif;
 
     .section-offer__div__price {
       font-family: $rubik-font;
-      font-size: .8rem;
+      font-size: 0.8rem;
       color: #172432;
     }
 
     .section-offer__div__price strong {
       font-family: $rubik-font;
-      color: #FF7757;
+      color: #ff7757;
       height: 38px;
       font-size: 1.8rem;
       padding-left: 5px;
@@ -98,7 +98,7 @@ $Mulish-font: "Mulish", sans-serif;
       padding: 16px 24px;
       width: 127px;
       height: 56px;
-      background: #FF7654;
+      background: #ff7654;
       border-radius: 12px;
       border: none;
       color: white;
@@ -109,22 +109,19 @@ $Mulish-font: "Mulish", sans-serif;
 
   .section__article__para {
     font-family: $rubik-font;
-    font-size: .8rem;
+    font-size: 0.8rem;
     line-height: 38px;
     color: #172432;
-
   }
 
   .section__article p:last-of-type {
     font-family: $rubik-font;
     font-size: 1.1rem;
-    color: #FF7757;
+    color: #ff7757;
     padding-top: 10px;
-
   }
 
   .section__article p:last-of-type img {
-
     padding-left: 15px;
   }
 }
